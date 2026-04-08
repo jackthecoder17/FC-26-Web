@@ -31,7 +31,7 @@ export function Header() {
 
         {/* Desktop Nav */}
         <div className="hidden md:flex items-center gap-8">
-          {["Features", "Gallery", "Editions"].map((item) => (
+          {["Features", "Modes", "Gallery", "Reviews", "Editions"].map((item) => (
             <a
               key={item}
               href={`#${item.toLowerCase()}`}
@@ -75,7 +75,7 @@ export function Header() {
         }`}
       >
         <div className="px-6 py-4 flex flex-col gap-4 bg-black/80 backdrop-blur-md">
-          {["Features", "Gallery", "Editions"].map((item) => (
+          {["Features", "Modes", "Gallery", "Reviews", "Editions"].map((item) => (
             <a
               key={item}
               href={`#${item.toLowerCase()}`}
